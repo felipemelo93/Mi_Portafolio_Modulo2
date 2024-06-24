@@ -1,0 +1,214 @@
+body, html {
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+
+
+
+h1{
+    color: #f4f7f2;   
+}
+/* Text Size */
+
+  .text-2 {
+    font-size: 14px !important;
+    font-size: 0.875rem !important;
+  }
+  .text-5 {
+    font-size: 21px !important;
+    font-size: 1.3125rem !important;
+  }
+  .text-6 {
+    font-size: 24px !important;
+    font-size: 1.50rem !important;
+  }
+.text-9 {
+    font-size: 45px !important;
+    font-size: 3.45rem !important;
+  }
+  .text-24 {
+    font-size: calc(1.95rem + 6.4vw) !important;
+  }
+  @media (min-width: 1200px) {
+    .text-24 {
+      font-size: 8.25rem !important;
+    }
+  }
+  /* Font Weight */
+.fw-400 {
+    font-weight: 400 !important;
+  }
+  .fw-500 {
+    font-weight: 500 !important;
+  }
+.fw-600 {
+  font-weight: 600 !important;
+  
+}
+
+.opacity-4 {
+  opacity: 0.4;
+}
+.section {
+  position: relative;
+  padding: 4.5rem 0;
+  overflow: hidden;
+}
+@media (max-width: 575.98px) {
+  .section {
+    padding: 3.5rem 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  
+     
+  
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #0f0f0e;
+  }
+
+
+  .nav-item a{
+    color: #f4f7f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .title {
+          width: 100px;
+      }
+    }
+
+.profile-pic {
+    text-align: center;
+  }
+  
+  .profile-pic img {
+    width: 120px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: 120px; /* Ajusta el tamaño de la imagen según lo necesites */
+    border-radius: 50%; /* Esto hace que la imagen sea redonda */
+    margin-bottom: 20px;
+    border: 3px solid #29707a;
+
+    
+  }
+  main{
+    margin-left: 250px; /* Ancho de la barra lateral */
+    padding: 0px;
+    
+  }
+  @media (max-width: 768px) {
+    main {
+        margin-left: 100px; /* Menor margen para pantallas pequeñas */
+        padding: 10px;
+    }
+}
+
+
+
+    main{
+        .imgn{
+        
+            display: flex;
+            height: 640px;
+            width: 700px;
+            
+          
+        }
+    }
+    main h1{
+        font-size: medium;
+        color: black;
+    }
+    .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(15%, -50%);
+        text-align: center;
+        color: white;
+      }
+      
+      .text-overlay h1 {
+        font-size: 2.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #f4f7f2;
+        margin-bottom: 10px;
+      }
+    .redes{
+        color: #f4f7f2;
+       
+    }
+ 
+  
+    .redes{
+      font-size: 35px;
+      
+      
+    }
+
+
+
+    /* Footer */
+footer {
+  margin-left: 250px; /* Margen para pantallas grandes */
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  footer {
+      margin-left: 100px; /* Menor margen para pantallas pequeñas */
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+      margin-left: 0;
+      text-align: center; /* Centra el texto en pantallas muy pequeñas */
+  }
+}
+
+
+   /* Menú desplegable en pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
+    
+    
+
+    
